@@ -12,7 +12,7 @@ body{
 #content{
 width: 910px;
 height: 1310px;
-margin-left: 39px;
+margin-left: 44px;
 margin-right:45px; 
 }
 header{
@@ -54,7 +54,7 @@ font-size: 18px;
 font-weight: 500;
 line-height: 25px;
 padding-top: 2px; 
-padding-right:15px;
+padding-right:19px;
 word-spacing: 10px;
 }
 form{
@@ -134,4 +134,109 @@ margin-right:11px;
 width: 910px;
 height:237px;
 background-image: url(img/blick.png);
+margin-left: 3px;
 }
+#shape1{
+width: 910px;
+height: 34px;
+background-color: white;
+background-image: linear-gradient(to top, black 0%, #576068 100%);
+border: 1px solid #0d1642;
+border-radius: 5px;
+box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+margin-top: 5px;
+margin-left: 2px;
+
+}
+#navbar {
+position: relative;
+float:left;
+width: 622px;
+height: 34px;
+text-align: right;
+padding-top: 5px;
+}
+ul li{
+	display: inline;
+	text-decoration: none;
+	padding-left: 10px;
+	margin-right: 12px;
+}
+a{
+	text-decoration: none;
+}
+.f1{
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+color: white;
+padding-left:6px;
+}
+#f1{
+position: absolute;
+float: left;
+width: 124px;
+height: 25px;
+background: linear-gradient(to top, #0d3458, #1f6787 );
+text-align: center;
+border-radius: 15px;
+margin-top: -25px;
+margin-left: 123px;
+}
+.f2{
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+color: #b1bcc0;
+}
+#info p{
+display: inline;
+}
+#info{
+position: relative;
+width: 240px;
+height: 23px;
+float: right;
+text-align: right;
+padding-top: 10px;
+color: #929b9f;
+font-family: Arial;
+font-size: 11px;
+font-weight: 400;
+padding-right: 16px;
+}
+.info1{
+	padding-left:5px;
+    }
+.info2{
+width: 7px;
+height: 9px;
+color: #0d5a8f;
+font-family: Arial;
+font-size: 12px;
+font-weight: 400;
+padding-right: 18px;
+}
+.info4{
+width: 7px;
+height: 11px;
+color: #0d5a8f;
+font-family: Arial;
+font-size: 12px;
+font-weight: 400;
+padding-right: 5px;
+}
+.info4 {
+	padding-left:10px;
+
+}
+#layer15 {
+	position: absolute;
+	margin-left: -25px;
+	margin-top: 0px;
+}
+
+
+
