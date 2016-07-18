@@ -283,21 +283,13 @@ float: left;
 width: 188px;
 height: 627px;
 }
-#wraper8{
-float: left;
-margin-top: 10px;
-width: 526px;
-height: 627px;
-background-color: white;
-background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
-border-radius: 3px;
-}
+
 #wraper9{
 position: absolute;
 margin-left:720px;
 width: 185px;
 height: 627px;
-border: 1px solid black;
+
 }
 #wraper10{
 position: relative;
@@ -305,7 +297,7 @@ width: 910px;
 height: 627px;
 margin-top: 409px;
 }
-li{
+ nav  li{
 	list-style-type:circle;
 	margin-left:48px;
 	padding-top:6px;
@@ -313,6 +305,15 @@ li{
 	color: #114165;
     font-family: "Lucida Sans Unicode";
 }
+aside li{
+	list-style-type:circle;
+	margin-left:48px;
+	padding-top:6px;
+    padding-left:0px;
+	color: #114165;
+    font-family: "Lucida Sans Unicode";
+}
+
 aside{
 position: relative;
 width: 188px;
@@ -331,17 +332,18 @@ font-size: 14px;
 font-weight: 400;
 }
 #wraper11 {
-width: 181px;
+width: 180px;
 height: 21px;
 background-color: white;
 border: 1px solid #79878d;
 box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
-border-radius: 10px;
-text-align: right;
+border-radius: 15px;
+text-align: left;
 padding-top:2px;
 padding-bottom: 2px;
 margin-top: 13px;
 margin-right:9px;
+margin-left: 8px;
 
 }
 #wraper11 h1{
@@ -354,20 +356,53 @@ font-size: 13px;
 font-weight: 400;
 line-height: 25px;
 margin-top:-20px;
+padding-left: 30px;
 }
 #wraper12{
 width: 20px;
 height: 20px;
 padding-left: 2px;
 }
-#shape13{
-width: 149px;
-height: 25px;
+#wraper111 {
+width: 180px;
+height: 21px;
 background-color: white;
 border: 1px solid #79878d;
-border-radius: 10px;
-margin-top: 15px;
-margin-left: 3px;
+box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+border-radius: 15px;
+text-align: left;
+padding-top:2px;
+padding-bottom: 2px;
+margin-top: 13px;
+margin-right:9px;
+margin-left: 8px;
+
+}
+#wraper111 h1{
+width: 180px;
+padding-left: 9px;
+width: 165px;
+height: 11px;
+font-family: "Lucida Sans Unicode";
+font-size: 13px;
+font-weight: 400;
+line-height: 25px;
+margin-top:-20px;
+padding-left: 30px;
+}
+#wraper122{
+width: 20px;
+height: 20px;
+padding-left: 2px;
+}
+#shape13{
+width: 137px;
+height: 26px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 12px;
+margin-top: 14px;
+margin-left: 21px;
 }
 #wraper14 h1{
 width: 22px;
@@ -388,13 +423,13 @@ margin-top:2px;
 margin-top: 7px;
 }
 #shape14{
-width: 149px;
-height: 26px;
+width: 138px;
+height: 25px;
 background-color: white;
 border: 1px solid #79878d;
 border-radius: 12px;
-margin-top: 11px;
-margin-left: 3px;
+margin-top: 13px;
+margin-left: 20px;
 }
 #wraper15 h1{
 width: 22px;
@@ -412,7 +447,7 @@ margin-left:6px;
 margin-top:2px;
 }
 #shape14 h1{
-margin-top: 7px;
+margin-top: 8px;
 }
 #shape15{
 width: 149px;
@@ -449,24 +484,87 @@ font-weight: 700;
 font-style: italic;
 text-decoration: underline;
 }
-nav  a{
+#nav_bar2 nav{
+width: 185px;
+height: 627px;
+}
+#nav_bar2  label{
 color: #465961;
 font-family: "Lucida Sans Unicode";
 font-size: 13px;
 font-weight: 400;
 }
-nav h1{
+#nav_bar2 h1{
 color: #114165;
 font-family: "Lucida Sans Unicode";
 font-size: 14px;
 font-weight: 400;
 }
-nav li{
-	list-style-type:square;
-	list-style-image: url(img/checkbox.png);
+#nav_bar2 input{
+width: 9px;
+height: 9px;
 }
-
-
+#shape17{
+width: 82px;
+height: 26px;
+background-color: black;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+border: 1px solid #a7abae;
+border-radius: 10px;
+color: #e5e9ea;
+font-family: Arial;
+font-size: 11px;
+font-weight: 400;
+margin-left:30px; 
+margin-top:14px; 
+}
+.shape18{
+	margin-left: 30px;
+	padding-top: 5px;
+}
+.shape19{
+	margin-left: 30px;
+	margin-top: 9px;
+}
+#nav_bar2 label{
+padding-left:7px;
+}
+#wraper8{
+position: relative;
+float: left;
+margin-top: 10px;
+width: 526px;
+height: 627px;
+background-color: white;
+background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+border-radius: 3px;
+}
+.sh{
+float: left;
+margin-left: 20px;
+margin-top: 18px;
+text-align:center;
+}
+#sh1{
+text-align:center;
+width: 147px;
+height: 179px;
+border-radius: 7px;
+}
+.fg{
+color: #206988;
+font-size: 15px;
+font-family: "Lucida Sans Unicode";
+font-weight: 400;
+line-height: 13px;
+}
+.fg1{
+font-family: "Lucida Sans Unicode";
+font-weight: 400;
+line-height: 13px;
+color: #1f2528;
+font-size: 13px;
+}
 
 
 
