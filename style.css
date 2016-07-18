@@ -282,7 +282,6 @@ box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
 float: left;
 width: 188px;
 height: 627px;
-border: 1px solid black;
 }
 #wraper8{
 float: left;
@@ -308,14 +307,18 @@ margin-top: 409px;
 }
 li{
 	list-style-type:circle;
-	margin-left:40px;
+	margin-left:48px;
+	padding-top:6px;
+    padding-left:0px;
+	color: #114165;
+    font-family: "Lucida Sans Unicode";
 }
 aside{
 position: relative;
 width: 188px;
 height: 460px;
 }
-aside li a{
+aside  a{
 color: #465961;
 font-family: "Lucida Sans Unicode";
 font-size: 13px;
@@ -328,7 +331,7 @@ font-size: 14px;
 font-weight: 400;
 }
 #wraper11 {
-width: 175px;
+width: 181px;
 height: 21px;
 background-color: white;
 border: 1px solid #79878d;
@@ -337,7 +340,7 @@ border-radius: 10px;
 text-align: right;
 padding-top:2px;
 padding-bottom: 2px;
-margin-top: 12px;
+margin-top: 13px;
 margin-right:9px;
 
 }
@@ -356,8 +359,116 @@ margin-top:-20px;
 width: 20px;
 height: 20px;
 padding-left: 2px;
-
 }
+#shape13{
+width: 149px;
+height: 25px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 10px;
+margin-top: 15px;
+margin-left: 3px;
+}
+#wraper14 h1{
+width: 22px;
+height: 22px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+}
+#wraper14{
+width: 22px;
+height: 22px;
+float: left;
+margin-left:6px;
+margin-top:2px;
+}
+#shape13 h1{
+margin-top: 7px;
+}
+#shape14{
+width: 149px;
+height: 26px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 12px;
+margin-top: 11px;
+margin-left: 3px;
+}
+#wraper15 h1{
+width: 22px;
+height: 22px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+}
+#wraper15{
+width: 22px;
+height: 22px;
+float: left;
+margin-left:6px;
+margin-top:2px;
+}
+#shape14 h1{
+margin-top: 7px;
+}
+#shape15{
+width: 149px;
+height: 26px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 12px;
+margin-top: 11px;
+margin-left: 3px;
+}
+#wraper16 h1{
+width: 22px;
+height: 22px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+}
+#wraper16{
+width: 22px;
+height: 22px;
+float: left;
+margin-left:6px;
+margin-top:2px;
+}
+#shape15 h1{
+margin-top: 7px;
+}
+#wraper7 li a:hover{
+color: #0c3256;
+font-family: Arial;
+font-size: 14px;
+font-weight: 700;
+font-style: italic;
+text-decoration: underline;
+}
+nav  a{
+color: #465961;
+font-family: "Lucida Sans Unicode";
+font-size: 13px;
+font-weight: 400;
+}
+nav h1{
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+}
+nav li{
+	list-style-type:square;
+	list-style-image: url(img/checkbox.png);
+}
+
+
+
+
 
 
 
