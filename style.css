@@ -307,7 +307,7 @@ margin-top: 409px;
 }
 aside li{
 	list-style-type:circle;
-	margin-left:48px;
+	margin-left:50px;
 	padding-top:6px;
     padding-left:0px;
 	color: #114165;
@@ -341,12 +341,12 @@ border-radius: 15px;
 text-align: left;
 padding-top:2px;
 padding-bottom: 2px;
-margin-top: 13px;
+margin-top: 14px;
 margin-right:9px;
-margin-left: 8px;
+margin-left: 2px;
 
 }
-#wraper11 h1{
+.wraper11_1 {
 width: 180px;
 padding-left: 9px;
 width: 165px;
@@ -396,13 +396,33 @@ height: 20px;
 padding-left: 2px;
 }
 #shape13{
+width: 146px;
+height: 26px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 12px;
+margin-top: 14px;
+margin-left: 5px;
+}
+
+.shape13_1{
+margin-top: 8px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+}
+#shape133{
 width: 137px;
 height: 26px;
 background-color: white;
 border: 1px solid #79878d;
 border-radius: 12px;
 margin-top: 14px;
-margin-left: 21px;
+margin-left: 22px;
+}
+#shape133 h1{
+margin-top: 8px;
 }
 #wraper14 h1{
 width: 22px;
@@ -419,17 +439,50 @@ float: left;
 margin-left:6px;
 margin-top:2px;
 }
-#shape13 h1{
-margin-top: 7px;
+#wraper144 h1{
+width: 22px;
+height: 22px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
 }
+#wraper144{
+width: 22px;
+height: 22px;
+float: left;
+margin-left:6px;
+margin-top:2px;
+}
+
 #shape14{
+width: 148px;
+height: 25px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 12px;
+margin-top: 12px;
+margin-left: 3px;
+}
+.shape14_1{
+margin-top: 8px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+}
+
+#shape144{
 width: 138px;
 height: 25px;
 background-color: white;
 border: 1px solid #79878d;
 border-radius: 12px;
-margin-top: 13px;
+margin-top: 21px;
 margin-left: 20px;
+}
+#shape144 h1{
+margin-top: 8px;
 }
 #wraper15 h1{
 width: 22px;
@@ -446,9 +499,23 @@ float: left;
 margin-left:6px;
 margin-top:2px;
 }
-#shape14 h1{
-margin-top: 8px;
+#wraper155 h1{
+width: 22px;
+height: 22px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
 }
+#wraper155{
+width: 22px;
+height: 22px;
+float: left;
+margin-left:6px;
+margin-top:2px;
+}
+
+
 #shape15{
 width: 149px;
 height: 26px;
@@ -473,8 +540,12 @@ float: left;
 margin-left:6px;
 margin-top:2px;
 }
-#shape15 h1{
+.shape15_1 {
 margin-top: 7px;
+color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
 }
 #wraper7 li a:hover{
 color: #0c3256;
@@ -540,9 +611,12 @@ background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 2
 border-radius: 3px;
 }
 .sh{
+width: 147px;
+height: 179px;
 float: left;
-margin-left: 20px;
-margin-top: 18px;
+margin-left: 23px;
+margin-top: 14px;
+margin-bottom: 10px;
 text-align:center;
 }
 #sh1{
@@ -565,6 +639,7 @@ line-height: 13px;
 color: #1f2528;
 font-size: 13px;
 }
+
 
 
 
