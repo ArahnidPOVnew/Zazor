@@ -156,11 +156,11 @@ height: 34px;
 text-align: right;
 padding-top: 5px;
 }
-ul li{
+#navbar ul li{
 	display: inline;
 	text-decoration: none;
-	padding-left: 14px;
-	margin-right: 10px;
+	padding-left: 0px;
+	margin-right: -19px;
 }
 a{
 	text-decoration: none;
@@ -183,14 +183,28 @@ text-align: center;
 border-radius: 15px;
 margin-top: -25px;
 margin-left: 123px;
+
 }
-.f2{
+.f2 {
 font-family: "Lucida Sans Unicode";
 font-size: 14px;
 font-weight: 400;
 line-height: 25px;
 color: #b1bcc0;
 }
+#na_line{
+margin-left: 41px;
+padding-right: 0px;
+}
+#na_line1{
+margin-left: 44px;
+padding-right: 15px;
+}
+#na_line2{
+margin-left: 23px;
+padding-right: 27px;
+}
+
 #info p{
 display: inline;
 }
@@ -200,12 +214,12 @@ width: 240px;
 height: 23px;
 float: right;
 text-align: right;
-padding-top: 10px;
+padding-top: 9px;
 color: #929b9f;
 font-family: Arial;
 font-size: 11px;
 font-weight: 400;
-padding-right: 16px;
+padding-right: 6px;
 }
 .info1{
 	padding-left:5px;
@@ -217,7 +231,7 @@ color: #0d5a8f;
 font-family: Arial;
 font-size: 12px;
 font-weight: 400;
-padding-right: 18px;
+padding-right: 10px;
 }
 .info4{
 width: 7px;
@@ -226,51 +240,54 @@ color: #0d5a8f;
 font-family: Arial;
 font-size: 12px;
 font-weight: 400;
-padding-right: 5px;
+padding-right: 13px;
 }
 .info4 {
 	padding-left:10px;
 
 }
 #layer15 {
-	background-image: url(img/Layer 15.png);
-	position: absolute;
-	margin-left: -25px;
-	margin-top: 0px;
+background-image: url(img/Layer 15.png);
+position: absolute;
+margin-left:-19px;
+margin-top: -2px;
 }
 
 #wraper4{
+background-image: url(img/findPoAvto.png);
 vertical-align: top;
-margin-top: 6px;
-margin-left: 7px;
+margin-top: 7px;
+margin-left: 9px;
 float: left;
-width: 413px;
-height: 134px;
+width: 411px;
+height: 129px;
 background-color: white;
 border: 1px solid #9c9c9d;
-border-radius: 17px;
+border-radius: 18px;
 box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
 
 }
 #wraper5{
+background-image: url(img/findTires.png);
 float: left;
 vertical-align: top;
 margin-top: 6px;
-margin-left: 14px;
-width: 192px;
-height: 136px;
+margin-left: 15px;
+width: 190px;
+height: 135px;
 background-color: white;
 border: 1px solid #9c9c9d;
-border-radius: 17px;
+border-radius: 18px;
 box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
 }
 #wraper6{
+	background-image: url(img/findDisc.png);
 vertical-align: top;
 margin-top: 6px;
-margin-right: 4px;
+margin-right: 5px;
 float: right;
-width: 267px;
-height: 134px;
+width: 263px;
+height: 132px;
 background-color: white;
 border: 1px solid #9c9c9d;
 border-radius: 14px;
@@ -600,7 +617,7 @@ margin-top:14px;
 padding-left:7px;
 }
 #wraper8{
-	margin-left:-3px;
+margin-left:3px;
 position: relative;
 float: left;
 margin-top:7px;
@@ -614,23 +631,33 @@ border-radius: 3px;
 width: 147px;
 height: 179px;
 float: left;
-margin-left: 23px;
+margin-left: 20px;
 margin-top: 14px;
 margin-bottom: 10px;
 text-align:center;
 }
+#sh3{
+	margin-left:21px;
+}
+
 #sh1{
 text-align:center;
 width: 147px;
 height: 179px;
 border-radius: 7px;
+
 }
 .fg{
+width:84px;
+height: 15px;
 color: #206988;
 font-size: 15px;
 font-family: "Lucida Sans Unicode";
 font-weight: 400;
 line-height: 13px;
+margin-left: 4px;
+margin-right:4px; 
+
 }
 .fg1{
 font-family: "Lucida Sans Unicode";
@@ -706,81 +733,7 @@ height: 13px;
 margin-top: 11px;
 margin-left:14px;
 }
-footer{
-position: absolute;
-width: 910px;
-height: 99px;
-background-color: #213a4d;
-border: 1px solid #242a3c;
-margin-top: 100px;
-margin-left: 2px;
-}
-#fo_1{
-position: relative;
-width: 299px;
-height: 16px;
-margin-left: 310px;
-margin-top: 8px;
 
-
-}
-#fo_1 a{
-color: #bec6c9;
-font-family: Arial;
-font-size: 12px;
-font-weight: 400;
-line-height: 16px;
-height: 16px;
-}
-#f-2 a{
-color: #52abcb;
-
-}
-#f-3 #f-4 #f-5{
-color: #bec6c9;
-}
-#f-2{
-float: left;
-padding-right:9px;
-border-right: 3px solid #bec6c9;
-height: 12px;
-
-}
-
-#f-3{
-float: left;
-margin-left: 10px;
-padding-right: 12px;
-border-right: 3px solid #bec6c9;
-height: 11px;
-}
-#f-4{
-float: left;
-margin-left: 10px;
-padding-right: 13px;
-border-right: 3px solid #bec6c9;
-height: 11px;
-}
-#f-5{
-	float: left;
-	margin-left: 15px;
-
-}
-#fo_2{
-width: 154px;
-height: 9px;
-margin-left: 377px;
-margin-top: 12px;
-}
-#fo_2 a{
-width: 154px;
-height: 9px;
-color: #7f4740;
-font-family: Arial;
-font-size: 10px;
-font-weight: 400;
-line-height: 18px;
-}
 figcaption{
 width: 72px;
 height: 15px;
@@ -812,6 +765,75 @@ text-align: center;
 margin-top:3px;
 margin-left: -2px;
 }
+footer{
+position: absolute;
+width: 908px;
+height: 99px;
+background-color: #213a4d;
+border: 1px solid #242a3c;
+margin-top: 100px;
+margin-left: 2px;
+}
+#fo_1{
+width: 360px;
+height: 13px;
+margin-left: 300px;
+margin-top: 8px;
+display: inline-block;
+
+}
+#fo_1 a{
+color: #bec6c9;
+font-family: Arial;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+height: 13px;
+display: block;
+text-align: left;
+}
+#fo_1 li{
+display: inline-block;
+margin-right:2px;
+}
+
+#fo_li {
+color: #52abcb;
+border-right: 3px solid #bec6c9;
+padding-right:13px;
+padding-left:7px;
+}
+#fo_bor {
+border-right: 3px solid #bec6c9;
+padding-left:7px;
+padding-right:9px;
+}
+#fo_bor1 {
+border-right: 3px solid #bec6c9;
+padding-left:6px;
+padding-right:10px;
+}
+#fo_bor2{
+padding-left:9px;
+}
+#fo_2 {
+width: 154px;
+height: 9px;
+margin-left: 375px;
+margin-top:9px;
+}
+#fo_2 a{
+width: 154px;
+height: 9px;
+color: #7f4740;
+font-family: Arial;
+font-size: 10px;
+font-weight: 400;
+line-height: 18px;
+
+}
+
+
 
 
 
