@@ -21,6 +21,7 @@ width: 910px;
 height: 54px;
 }
 #wraper{
+	position: relative;
 	margin-top:10px;
 	width: 910px;
     height: 35px;
@@ -52,15 +53,17 @@ font-family: Arial;
 font-size: 18px;
 font-weight: 500;
 line-height: 25px;
-padding-top: 0px; 
+padding-top: -3px; 
 padding-right:19px;
 word-spacing: 10px;
 }
 .n1_1{
-padding-left: 3px;
+padding-left: 4px;
 }
 .n1_2{
-padding-left: 13px;
+padding-left: 10px;
+letter-spacing: 0.1px;
+ma
 }
 form{
 float: left;
@@ -68,17 +71,18 @@ width: 495px;
 height: 26px;
 border-radius: 4px;
 background-image:url(img/fon3.png);
-text-align: center;
 box-shadow:2px 2px 4px;
 margin-top: -3px;
 }
 
 #wraper1{
+position: absolute;
 float: right;
 width: 220px;
 height: 26px;
 vertical-align: top;
-margin-left: 5px;
+margin-left: 245px;
+margin-top: -22px;
 }
 #wraper1 a{
 font-weight: 400;
@@ -116,36 +120,44 @@ border: 1px solid #9ba1a3;
 border-radius: 3px;
 }
 #wraper2{
+position: relative;
 width: 464px;
 height: 18px;
 margin-top: 2px;
-margin-left: 22px;
+margin-left: 21.5px;
 }
-
+.ol_a1{
+	padding-top:-2px;
+padding-left: 4px;
+}
 #a2 {
 color: white;
 text-decoration: none;
 }
 #a3 {
+position: absolute;
 color: #bfbfbf;
 font-family: "Lucida Sans Unicode";
-font-size: 12px;
+font-size: 13px;
 font-weight: 400;
 line-height: 28px;
 text-decoration: underline;
-padding-left: 21px;
-padding-right:5px;
+margin-left:10px;
+padding-left: 25px;
+padding-right:4px;
+padding-top:-4px;
+
 
 }
 #shape{
 border: 1px solid #c7cdd0;
 border-radius: 11px;
 float: right;
-width: 71px;
+width: 70px;
 height: 20px;
 background-image: url(img/shape.png);
 box-shadow:1px 1px 2px;
-margin-top:-1px;
+margin-top:-3px;
 margin-right:7px;
 }
 #shape li{
@@ -158,6 +170,7 @@ width: 910px;
 height:237px;
 background-image: url(img/blick.png);
 margin-left: 3px;
+margin-top:-2px;
 }
 #shape1{
 width: 910px;
@@ -374,21 +387,21 @@ padding-right: 13px;
 .layer15 {
 background-image: url(img/Layer 15.png);
 position: absolute;
-margin-left:-19px;
+margin-left:-22px;
 margin-top: -2px;
 }
 
 #wraper4{
 background-image: url(img/findPoAvto.png);
 vertical-align: top;
-margin-top: 7px;
+margin-top:7px;
 margin-left: 9px;
 float: left;
-width: 411px;
+width: 413px;
 height: 129px;
 background-color: white;
 border: 1px solid #9c9c9d;
-border-radius: 18px;
+border-radius: 17px;
 box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
 
 }
@@ -396,20 +409,20 @@ box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
 background-image: url(img/findTires.png);
 float: left;
 vertical-align: top;
-margin-top: 6px;
-margin-left: 15px;
-width: 189px;
-height: 136px;
+margin-top: 3px;
+margin-left: 13px;
+width: 192px;
+height: 135px;
 background-color: white;
 border: 1px solid #9c9c9d;
-border-radius: 18px;
+border-radius: 19px;
 box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
 }
 #wraper6{
-	background-image: url(img/findDisc.png);
+background-image: url(img/findDisc.png);
 vertical-align: top;
-margin-top: 6px;
-margin-right: 5px;
+margin-top:5px;
+margin-right: 4px;
 float: right;
 width: 263px;
 height: 132px;
@@ -420,6 +433,7 @@ box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
 }
 
 #wraper7{
+position: relative;
 float: left;
 width: 189px;
 height: 625px;
@@ -448,7 +462,7 @@ margin-top: 409px;
 }
 aside li{
 	list-style-type:circle;
-	margin-left:55px;
+	margin-left:59px;
 	padding-top:6px;
     padding-left:0px;
 	color: #114165;
@@ -463,7 +477,7 @@ height: 460px;
 aside  a{
 color: #465961;
 font-family: "Lucida Sans Unicode";
-font-size: 13px;
+font-size: 12px;
 font-weight: 400;
 padding: 0px;
 margin-left: -6px;
@@ -479,6 +493,7 @@ margin-top: 7px;
 }
 .ss2{
 padding-top: 9px;
+margin-left: 59px;
 }
 #wraper11 {
 width: 181px;
@@ -517,8 +532,8 @@ height: 20px;
 padding-left: 5px;
 }
 #wraper111 {
-width: 179px;
-height: 23px;
+width: 182px;
+height: 20px;
 background-color: white;
 border: 1px solid #79878d;
 box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
@@ -539,13 +554,14 @@ font-family: "Lucida Sans Unicode";
 font-size: 13px;
 font-weight: 400;
 line-height: 25px;
-margin-top:-20px;
+margin-top:-21px;
 padding-left: 30px;
 }
 #wraper122{
 width: 20px;
 height: 20px;
-padding-left: 2px;
+padding-left: 4px;
+padding-top: -2px;
 }
 #shape13{
 width: 149px;
@@ -553,12 +569,12 @@ height: 26px;
 background-color: white;
 border: 1px solid #79878d;
 border-radius: 14px;
-margin-top: 13px;
+margin-top: 11px;
 margin-left: 4px;
 }
 
 .shape13_1{
-margin-top: 8px;
+margin-top: 7px;
 color: #114165;
 font-family: "Lucida Sans Unicode";
 font-size: 14px;
@@ -571,10 +587,10 @@ background-color: white;
 border: 1px solid #79878d;
 border-radius: 12px;
 margin-top: 14px;
-margin-left: 23px;
+margin-left: 24px;
 }
 #shape133 h1{
-margin-top: 6px;
+margin-top: 7px;
 }
 #wraper14 h1{
 width: 22px;
@@ -589,7 +605,7 @@ width: 22px;
 height: 22px;
 float: left;
 margin-left:5px;
-margin-top:2px;
+margin-top:1px;
 }
 #wraper144 h1{
 width: 22px;
@@ -603,7 +619,7 @@ font-weight: 400;
 width: 22px;
 height: 22px;
 float: left;
-margin-left:7px;
+margin-left:6px;
 margin-top:2px;
 }
 
@@ -613,24 +629,24 @@ height: 26px;
 background-color: white;
 border: 1px solid #79878d;
 border-radius: 12px;
-margin-top: 2px;
+margin-top: 3px;
 margin-left: 4px;
 }
 .shape14_1{
-margin-top: 8px;
+margin-top: 7px;
 color: #114165;
 font-family: "Lucida Sans Unicode";
 font-size: 14px;
 font-weight: 400;
 width: 100px;
 height: 20px;
-margin-left: 13px;
+margin-left: 14px;
 }
 .ol_a2{
-margin-top: 3px;
+margin-top: 4px;
 }
 .ol_a3{
-margin-top: 3px;
+margin-top: 2px;
 }
 .ol_a4{
 padding-top: 8px;
@@ -638,18 +654,18 @@ padding-top: 8px;
 
 
 #shape144{
-width: 136px;
+width: 131px;
 height: 26px;
 background-color: white;
 border: 1px solid #79878d;
 border-radius: 12px;
 margin-top: 12px;
-margin-left: 22px;
+margin-left: 28px;
 
 }
 #shape144 h1{
 margin-top: 6px;
-margin-left: 16px;
+margin-left: 18px;
 width:80px;
 height: 22px;
 }
@@ -681,7 +697,7 @@ font-weight: 400;
 width: 22px;
 height: 22px;
 float: left;
-margin-left:3px;
+margin-left:1px;
 margin-top:2px;
 }
 
@@ -691,17 +707,17 @@ height: 26px;
 background-color: white;
 border: 1px solid #79878d;
 border-radius: 13px;
-margin-top: 2px;
+margin-top: 4px;
 margin-left: 4px;
 }
 .ol_a4{
 margin-top: 1px;
 }
 .ol_a5{
-margin-top: 3px;
+margin-top: 4px;
 }
 .ol_a6{
-margin-top: 3px;
+margin-top: 2px;
 }
 #wraper16 h1{
 width: 22px;
@@ -726,7 +742,7 @@ color: #114165;
 font-family: "Lucida Sans Unicode";
 font-size: 14px;
 font-weight: 400;
-margin-left: 9px;
+margin-left: 11px;
 }
 #wraper7 li a:hover{
 color: #0c3256;
@@ -767,15 +783,15 @@ margin-top:18px;
 opacity: 0;
 }
 .shape18{
-	margin-left: 31px;
-	padding-top: 5px;
+	margin-left: 37px;
+	padding-top: 9px;
 }
 #check3{
 margin-top:3px;
 }
 .shape19{
-	margin-left: 31px;
-	margin-top:6px;
+	margin-left: 37px;
+	margin-top:9px;
 }
 #check6{
 margin-top:3px;
@@ -923,7 +939,7 @@ margin-left:13px;
 	float: left;
 width: 59px;
 height: 21px;
-margin-top: 10px;
+margin-top: 8px;
 margin-left:14px;
 }
 .brend5{
@@ -937,14 +953,14 @@ margin-left:14px;
 	float: left;
 width: 57px;
 height: 27px;
-margin-top: 8px;
+margin-top: 6px;
 margin-left:12px;
 }
 .brend7{
 	float: left;
 width: 61px;
 height: 14px;
-margin-top: 13px;
+margin-top: 11px;
 margin-left:13px;
 }
 .brend8{
@@ -1010,9 +1026,10 @@ margin-left: 2px;
 #fo_1{
 width: 360px;
 height: 13px;
-margin-left: 300px;
-margin-top: 8px;
+margin-left: 301px;
+margin-top: 7px;
 display: inline-block;
+letter-spacing: 0.28px;
 }
 #fo_1 a{
 color: #bec6c9;
@@ -1049,20 +1066,31 @@ padding-right:10px;
 padding-left:9px;
 }
 #fo_2 {
-width: 154px;
+position: absolute;
+width: 194px;
 height: 9px;
 margin-left: 375px;
 margin-top: 8px;
 
 }
 #fo_2 a{
-width: 154px;
+width: 194px;
 height: 9px;
 color: #7f4740;
 font-family: Arial;
 font-size: 10px;
 font-weight: 400;
 line-height: 18px;
+}
+#fo_2_2{
+float: left;
+margin-top: 2px;
+margin-left: 3px;
+}
+#fo_2_3{
+float: left;
+margin-top: 2px;
+margin-left: 6px;
 }
 
 #fo_li a:hover{
